@@ -1,6 +1,6 @@
 # Template file for 'zen-browser'
 pkgname=zen-browser
-version=1.18.3b
+version=1.18.8b
 revision=1
 only_for_archs="x86_64"
 wrksrc="${pkgname}-${version}"
@@ -11,7 +11,7 @@ maintainer="qwerty qwerty <qwerty@qwerty.qwerty>"
 license="MPL-2.0"
 homepage="https://www.zen-browser.app/"
 distfiles="https://github.com/zen-browser/desktop/releases/download/${version/a/-a}/zen.linux-x86_64.tar.xz"
-checksum=52900897b4196370350730630095e2d22a29cd996067672c95be2bc2c7496456
+checksum=9aff58e8ac0b9b135d574d011547ef322133248e131583e4de0dead1649ba55c
 
 do_install() {
 		# Install the files
